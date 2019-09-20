@@ -8,18 +8,23 @@ public class GetERC20Balance : MonoBehaviour
     public Text tokenBalanceText;
 
     // Start is called before the first frame update
-    async Task Start()
+    void Start()
     {
-        var balance = await BalanceOfERC20();
-        Debug.Log($"I have {balance} Wei TEST Tokens");
-        tokenBalanceText = GetComponent<Text>();
-        tokenBalanceText.text = balance.ToString() + " Wei";
+        Debug.Log("Start");
+        UpdateBalance();
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    async void UpdateBalance() {
+        var balance = await BalanceOfERC20();
+        Debug.Log($"I have {balance} Wei TEST Tokens");
+        tokenBalanceText = GetComponent<Text>();
+        tokenBalanceText.text = balance.ToString() + " Wei";
     }
 
     public static async Task<System.Numerics.BigInteger> BalanceOfERC20()

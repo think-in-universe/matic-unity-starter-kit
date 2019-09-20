@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.sh</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -272,8 +270,8 @@
  <Reference Include="Nethereum.Parity">
  <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Parity.dll</HintPath>
  </Reference>
- <Reference Include="matic.net">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/matic.net.dll</HintPath>
+ <Reference Include="Matic.Net">
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Matic.Net.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.ABI">
  <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.ABI.dll</HintPath>
