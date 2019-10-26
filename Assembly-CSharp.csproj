@@ -2,6 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <CscToolPath>/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.sh</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -261,110 +263,59 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
- <Reference Include="Nethereum.KeyStore">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.KeyStore.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.JsonRpc.RpcClient">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.JsonRpc.RpcClient.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.Parity">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Parity.dll</HintPath>
- </Reference>
  <Reference Include="Matic.Net">
  <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Matic.Net.dll</HintPath>
  </Reference>
+ <Reference Include="Nethereum.KeyStore">
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.KeyStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Nethereum.JsonRpc.RpcClient">
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.JsonRpc.RpcClient.dll</HintPath>
+ </Reference>
  <Reference Include="Nethereum.ABI">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.ABI.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.ABI.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Accounts">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Accounts.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Accounts.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Signer">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Signer.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Extensions.Logging.Abstractions">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.X509Certificates">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Signer.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.JsonRpc.Client">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.JsonRpc.Client.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Pipes">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.IO.Pipes.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.HdWallet">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.HdWallet.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.JsonRpc.Client.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.BlockchainProcessing">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.BlockchainProcessing.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.BlockchainProcessing.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.RPC">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.RPC.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.StandardTokenEIP20">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.StandardTokenEIP20.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Primitives">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.Security.Cryptography.Primitives.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.RPC.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Web3">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Web3.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.Buffers.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.JsonRpc.IpcClient">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.JsonRpc.IpcClient.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Web3.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Contracts">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Contracts.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.Unity">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Unity.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Encoding">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.Security.Cryptography.Encoding.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Contracts.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Hex">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Hex.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Hex.dll</HintPath>
  </Reference>
  <Reference Include="BouncyCastle.Crypto">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/BouncyCastle.Crypto.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Algorithms">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.Security.Cryptography.Algorithms.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/System.Numerics.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/BouncyCastle.Crypto.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Model">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Model.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.JsonRpc.WebSocketClient">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.JsonRpc.WebSocketClient.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Model.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.Util">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Util.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.Util.dll</HintPath>
  </Reference>
  <Reference Include="Nethereum.RLP">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.RLP.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.Geth">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Geth.dll</HintPath>
- </Reference>
- <Reference Include="NBitcoin">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/NBitcoin.dll</HintPath>
- </Reference>
- <Reference Include="Nethereum.Quorum">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum.Quorum.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Nethereum.RLP.dll</HintPath>
  </Reference>
  <Reference Include="Common.Logging.Core">
- <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Common.Logging.Core.dll</HintPath>
+ <HintPath>/Users/robort/workspace/blockchain/projects/code/open/maticnetwork/matic-unity-starter-kit/Assets/Plugins/Nethereum/Common.Logging.Core.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Hub/Editor/2019.2.4f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

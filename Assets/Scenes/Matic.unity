@@ -534,7 +534,7 @@ GameObject:
   - component: {fileID: 382800463}
   - component: {fileID: 382800462}
   - component: {fileID: 382800461}
-  - component: {fileID: 382800465}
+  - component: {fileID: 382800464}
   m_Layer: 5
   m_Name: Deposit Value
   m_TagString: Untagged
@@ -668,7 +668,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382800459}
   m_CullTransparentMesh: 0
---- !u!114 &382800465
+--- !u!114 &382800464
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 382800459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6a99b80b6f0459a8228e4cefd66e21, type: 3}
+  m_Script: {fileID: 11500000, guid: c87dc998cb9ef42ffbbd822a36161542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &461146553
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 589390410}
   - component: {fileID: 589390412}
   - component: {fileID: 589390411}
-  - component: {fileID: 589390414}
+  - component: {fileID: 589390413}
   m_Layer: 5
   m_Name: Balance Value
   m_TagString: Untagged
@@ -918,7 +918,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589390409}
   m_CullTransparentMesh: 0
---- !u!114 &589390414
+--- !u!114 &589390413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -927,7 +927,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 589390409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c35d55d58df648c68b20cc7d4ef9b5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 65d171bab29a64e99808a732969de5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tokenBalanceText: {fileID: 0}
@@ -1063,7 +1063,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 881753678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c82fed0189be64590a282c364cdf6904, type: 3}
+  m_Script: {fileID: 11500000, guid: e9f44c067ffe041a69e67191eeb869a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &927526425
