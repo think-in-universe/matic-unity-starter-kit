@@ -7,7 +7,7 @@ A Game Tutorial built with Unity3D and Matic.Net, to democratize modern blockcha
 1. Install Unity3D from https://store.unity.com/ . A recent stable version such as 2019.2.4f1 is recommended.
 1. Download this tutorial project into your local workspace.
 1. Download Matic.Net and dependent Nethereum libraries from https://github.com/think-in-universe/matic.net/releases, and put them into Asset/Plugins folder of Unity3D projects.
-1. Update the `FROM_ADDRESS` and `PRIVATE_KEY` fields in [Settings.cs](./Assets/Settings.cs) with your own address and private key.q
+1. Update the `FROM_ADDRESS` and `PRIVATE_KEY` fields in [Settings.cs](./Assets/Settings.cs) with your own address and private key.
 1. Open the tutorial project in Unity3D, and run the projects to start the games.
 
 
